@@ -58,7 +58,7 @@ Apple make it more difficult to interfacing with ImageCapture.app
 
 
 * **************** 
-# About Remove / Shared Scan
+# About Remote / Shared Scan
 ## Server sonfiguration
 * **************** 
 
@@ -103,4 +103,4 @@ scanimage --format jpg > test.jpg
 * ******************
 ** Thanks to Mattias Ellert, for all this Year of Maintaining SANE TWAIN for MacOS **
 
-[Sane]:http://www.ellert.se/twain-sane/
+[ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/
