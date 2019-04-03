@@ -1,7 +1,7 @@
-* **************** 
-# TWAIN SANE Interface for MacOS (10.10 and Next Versions)
-# Make your OLD Scanner back to Service !!
-* **************** 
+* **************** *
+# TWAIN SANE Interface for MacOS (10.10 and Next Versions) #
+## Make your OLD Scanner back to Service !! ##
+* **************** *
 Repo contains compiled binaries in bundled Package Installation.  
 All sources (1.0.25) are originaly get from its Ancestral MacOS Maintener [ Mattias Ellert's Official site ] 
 
@@ -10,30 +10,34 @@ And Further Resivions may/will be designed around more appropriate versions from
 
 **** For Documentation and more Information, Please Refer to : [http://sane-project.org/] Official Site ****
 
-* **************** 
-## Installation and USAGE
-* **************** 
-- Download packages
-  -----------------------
-  For (Yosemite* / Captain / Sierra)
-  ==> MACOS-10.10-10.12 
-    L___ libusb MacOS X 10.11 SDK_revisited.pkg
-    L___ gettext MacOS X 10.11 SDK_revisited.pkg
-    L___ sane-backends-10.10-10.12.pkg
-    L___ TWAIN-SANE-Interface_10.10-10.12_revisited.pkg
-  -----------------------
+* **************** *
+## Installation and USAGE ##
+* **************** *
+Download packages
+  
+  For (Yosemite / Captain / Sierra)
+      
+    MACOS-10.10-10.12
+      L__ libusb MacOS X 10.11 SDK_revisited.pkg
+      L__ gettext MacOS X 10.11 SDK_revisited.pkg
+      L__ sane-backends-10.10-10.12.pkg  
+      L__ TWAIN-SANE-Interface_10.10-10.12_revisited.pkg
+  
   For ( HighSierra )
-  ==> MACOS-10.13
-  NOT CURRENTLY AVAILBLE
-  -----------------------  
-  For ( Mojave )  
-  ==> MACOS-10.14 
-  NOT CURRENTLY AVAILBLE
-  -----------------------  
+
+    MACOS-10.13
+      NOT CURRENTLY AVAILBLE
+  
+  For ( Mojave )
+  
+    MACOS-10.14 
+      NOT CURRENTLY AVAILBLE
+  
   All Versions
-  ==> SANE-Preference-Pane.pkg
-  -----------------------  
-- Install all packages and follow instructions
+  
+    SANE-Preference-Pane.pkg
+  
+Install all packages and follow instructions
 
 * **************** 
 ### Test scanner : 
