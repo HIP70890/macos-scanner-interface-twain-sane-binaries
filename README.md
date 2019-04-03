@@ -26,12 +26,12 @@ Download packages
   For ( HighSierra )
 
     MACOS-10.13
-      NOT CURRENTLY AVAILBLE
+      NOT TESTED / NOT CURRENTLY AVAILBLE
   
   For ( Mojave )
   
     MACOS-10.14 
-      NOT CURRENTLY AVAILBLE
+      NOT TESTED / NOT CURRENTLY AVAILBLE
   
   All Versions
   
