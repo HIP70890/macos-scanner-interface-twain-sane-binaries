@@ -8,12 +8,31 @@ All sources (1.0.25) are originaly get from its Ancestral MacOS Maintener [ Matt
 For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) 
 And Further Resivions may/will be designed around more appropriate versions from Offical SANE Project's Site
 
-**** Please Refer to : [http://sane-project.org/] Official Site ****
+**** For Documentation and more Information, Please Refer to : [http://sane-project.org/] Official Site ****
 
 * **************** 
 ## Installation and USAGE
 * **************** 
 - Download packages
+  -----------------------
+  For (Yosemite* / Captain / Sierra)
+  ==> MACOS-10.10-10.12 
+    L___ libusb MacOS X 10.11 SDK_revisited.pkg
+    L___ gettext MacOS X 10.11 SDK_revisited.pkg
+    L___ sane-backends-10.10-10.12.pkg
+    L___ TWAIN-SANE-Interface_10.10-10.12_revisited.pkg
+  -----------------------
+  For ( HighSierra )
+  ==> MACOS-10.13
+  NOT CURRENTLY AVAILBLE
+  -----------------------  
+  For ( Mojave )  
+  ==> MACOS-10.14 
+  NOT CURRENTLY AVAILBLE
+  -----------------------  
+  All Versions
+  ==> SANE-Preference-Pane.pkg
+  -----------------------  
 - Install all packages and follow instructions
 
 * **************** 
