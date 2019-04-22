@@ -1,16 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 DSTNAME=TWAIN-SANE-Interface
 DSTVERSION=3.5
-
-
-XCODE_CURRENTPATH=$(  xcode-select -p )
-XCODE_CURRENTPATH_SDKS=$( echo "${XCODE_CURRENTPATH}/Platforms/MacOSX.platform/Developer/SDKs/")
-
-XCODE_POSSIBLEPATH_SDKS=$( ls -h $( echo -ne "${XCODE_CURRENTPATH_SDKS}") | sed -e "s;MacOSX;;g" | sed -e "s;.sdk;;g" | tr "\n" "[:space:]" | sed  -e "s;  ; ;g" )
-
-echo "Possible SDK PATH : ${XCODE_POSSIBLEPATH_SDKS[@]} "
-
 
 if   [ "$1" = "10.10" ]; then
     SDKVERSION=10.10
@@ -20,43 +11,16 @@ elif [ "$1" = "10.11" ]; then
     SDKVERSION=10.11
     MACOSX_DEPLOYMENT_TARGET=10.11
     MACOSX_DEPLOYMENT_TARGETX1=10.12
-elif [ "$1" = "10.13" ]; then
-    SDKVERSION=10.13
-    MACOSX_DEPLOYMENT_TARGET=10.12
-    MACOSX_DEPLOYMENT_TARGETX1=10.13
 else
     SDKVERSION=
     MACOSX_DEPLOYMENT_TARGET=default
-
     echo "Warning: No valid Deployment Target specified."
-    echo "         Possible targets are: " ${XCODE_POSSIBLEPATH_SDKS[@]}
+    echo "         Possible targets are: 10.10 and 10.11"
     echo "         The software will be built for the MacOSX version and"
     echo "         architecture currently running."
 fi
 
-
-XCODE_CURRENT_SDK=$( echo "${XCODE_CURRENTPATH_SDKS}/MacOSX${SDKVERSION}.sdk" | tr -d '[:space:]' )
-
-[ -n "$SDKVERSION" ] && NEXT_ROOT=XCODE_CURRENT_SDK
-
-
-# copy whatever SDK is present ...
-if [ -e "$XCODE_CURRENT_SDK" ]  && [ -ne "/usr/local/Developer/SDKs/MacOSX${SDKVERSION}.sdk" ] ; then
-
-    echo "***************************************************************************"
-    echo "Will sync SDK for (${SDKVERSION}) related in $(XCODE_CURRENT_SDK} :: to : /usr/local/Developer/SDKs/MacOSX${SDKVERSION}.sdk"
-    echo "***************************************************************************"
-    sleep 5
-    rsync -vapoxir "$(XCODE_CURRENT_SDK}" "/usr/local/Developer/SDKs/MacOSX${SDKVERSION}.sdk"
-    echo "***************************************************************************"
-    echo " ... Thank You !!"
-    echo "***************************************************************************"
-else
-
-    echo "Using SDK on : /usr/local/Developer/SDKs/MacOSX${SDKVERSION}.sdk"
-
-fi
-
+[ -n "$SDKVERSION" ] && NEXT_ROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX${SDKVERSION}.sdk
 [ -n "$NEXT_ROOT"  ] && SDK_NEXT_ROOT=/usr/local/Developer/SDKs/MacOSX${SDKVERSION}.sdk
 
 if [ -n "$NEXT_ROOT" ] && [ ! -e "$NEXT_ROOT" ]; then
