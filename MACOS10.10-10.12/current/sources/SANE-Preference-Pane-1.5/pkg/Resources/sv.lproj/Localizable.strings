@@ -1,0 +1,5 @@
+"SANE Preference Pane" = "SANE-inställningar";
+"WrongVersionTitle" = "Fel version av Mac OS X";
+"WrongVersionMessage" = "Detta paket kompilerades för version @MACOSX_DEPLOYMENT_TARGET@.";
+"NoSANETitle" = "sane-backends hittades inte";
+"NoSANEMessage" = "Vänligen installera sane-backend-paketet innan installationen av TWAIN-SANE-Gränssnitt-paketet.";

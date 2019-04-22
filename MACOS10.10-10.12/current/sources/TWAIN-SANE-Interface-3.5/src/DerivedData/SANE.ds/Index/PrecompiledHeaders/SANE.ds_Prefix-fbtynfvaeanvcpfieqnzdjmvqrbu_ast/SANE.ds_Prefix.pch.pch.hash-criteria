@@ -1,0 +1,25 @@
+-x
+c++
+-arch
+i386
+-fretain-comments-from-system-headers
+-gmodules
+-fpascal-strings
+-O0
+-isysroot
+/Volumes/Macintosh_HD_3To/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk
+-fasm-blocks
+-mmacosx-version-min=10.11
+-g
+-fvisibility-inlines-hidden
+-I/tmp/volatile_hd/TWAIN-SANE-Interface-3.5/src/DerivedData/SANE.ds/Build/Products/Debug/include
+-I/usr/local/include
+-F/tmp/volatile_hd/TWAIN-SANE-Interface-3.5/src/DerivedData/SANE.ds/Build/Products/Debug
+-ferror-limit=10
+-working-directory=/tmp/volatile_hd/TWAIN-SANE-Interface-3.5/src
+-Xclang
+-detailed-preprocessing-record
+i386-apple-darwin16.7.0
+"4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)"
+SDK_PRODUCT_BUILD_VERSION=15C43
+15C43

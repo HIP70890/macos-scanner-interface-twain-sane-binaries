@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="2">
+  <title>sane-backends MacOS X @SDKVERSION@ SDK</title>
+  <options customize="never" require-scripts="true" rootVolumeOnly="true"/>
+  <welcome file="ReadMe.rtf" mime-type="text/rtf"/>
+  <license file="License.rtf" mime-type="text/rtf"/>
+  <background file="background.gif" mime-type="image/gif" alignment="bottomleft" scaling="none"/>
+  <installation-check script="InstallationCheck()">
+    <script>
+      <![CDATA[
+function InstallationCheck() {
+  if(!system.files.fileExistsAtPath('@NEXT_ROOT@')) {
+    my.result.title = system.localizedString('NoSDKTitle');
+    my.result.message = system.localizedString('NoSDKMessage');
+    my.result.type = 'Fatal';
+    return false;
+  }
+  if(!system.files.fileExistsAtPath('@SDK_NEXT_ROOT@/usr/local/lib/libusb.dylib')) {
+    my.result.title = system.localizedString('NoLibusbSDKTitle');
+    my.result.message = system.localizedString('NoLibusbSDKMessage');
+    my.result.type = 'Fatal';
+    return false;
+  }
+  return true;
+}
+      ]]>
+    </script>
+  </installation-check>
+  <pkg-ref id="org.alioth.sane-backends.sdk-@SDKVERSION@" version="@DSTVERSION@" auth="root">sane-backends-@SDKVERSION@.sdk.pkg</pkg-ref>
+  <choices-outline>
+    <line choice="org.alioth.sane-backends.sdk-@SDKVERSION@"/>
+  </choices-outline>
+  <choice
+     id="org.alioth.sane-backends.sdk-@SDKVERSION@"
+     visible="false"
+     title="sane-backends MacOS X @SDKVERSION@ SDK"
+     description="sane-backends MacOS X @SDKVERSION@ SDK"
+     start_selected="true">
+    <pkg-ref id="org.alioth.sane-backends.sdk-@SDKVERSION@"/>
+  </choice>
+</installer-gui-script>

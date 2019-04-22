@@ -1,0 +1,4 @@
+"NoSDKTitle" = "No Mac OS X @SDKVERSION@ SDK";
+"NoSDKMessage" = "This is a Software Development Kit (SDK) package. Installing the SDK is only useful if you are planning to do software development and compile your own programs from source. This sane-backends SDK package is intended to be used together with the Mac OS X @SDKVERSION@ SDK, which is not installed. The Mac OS X @SDKVERSION@ SDK is installed as part of the XCode installation.";
+"NoLibusbSDKTitle" = "libusb SDK not found";
+"NoLibusbSDKMessage" = "Please install the libusb @SDKVERSION@ SDK package before installing the sane-backends @SDKVERSION@ SDK package";
