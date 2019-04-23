@@ -14,19 +14,30 @@ And Further Resivions may/will be designed around more appropriate versions from
 ## Installation and USAGE ##
 * **************** *
 Download packages
+    
+  For (Yosemite)
   
-  For (Yosemite / Captain / Sierra)
+    MACOS-10.10
+      NOT TESTED / NOT CURRENTLY AVAILBLE
+      L__ libusb-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
+      L__ gettext-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
+      L__ sane-backends-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg 
+      L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
+  
+  For (Captain / Sierra)
       
-    MACOS-10.10-10.12
-      L__ libusb MacOS X 10.11 SDK_revisited.pkg
-      L__ gettext MacOS X 10.11 SDK_revisited.pkg
-      L__ sane-backends-10.10-10.12.pkg  
-      L__ TWAIN-SANE-Interface_10.10-10.12_revisited.pkg
+    MACOS-10.11-10.12
+      L__ libusb-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
+      L__ gettext-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
+      L__ sane-backends-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
+      L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
   
   For ( HighSierra )
 
     MACOS-10.13
       NOT TESTED / NOT CURRENTLY AVAILBLE
+      L__ libusb-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
+      L__ gettext-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
   
   For ( Mojave )
   
@@ -35,7 +46,7 @@ Download packages
   
   All Versions
   
-    SANE-Preference-Pane.pkg
+    SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
   
 Install all packages and follow instructions
 
