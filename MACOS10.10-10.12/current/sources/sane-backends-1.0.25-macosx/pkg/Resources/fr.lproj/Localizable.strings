@@ -1,4 +1,0 @@
-"WrongVersionTitle" = "Fausse version de Mac OS X";
-"WrongVersionMessage" = "Ce paquet à été compilé pour version @MACOSX_DEPLOYMENT_TARGET@.";
-"NoLibusbTitle" = "libusb pas trouvé";
-"NoLibusbMessage" = "Installez le paquet libusb avant l’installation du paquet sane-backends, s.v.p.";

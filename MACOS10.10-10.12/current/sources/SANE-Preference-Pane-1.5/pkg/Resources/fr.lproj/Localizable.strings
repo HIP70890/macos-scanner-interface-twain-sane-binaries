@@ -1,5 +1,0 @@
-"SANE Preference Pane" = "Préférences SANE"
-"WrongVersionTitle" = "Fausse version de Mac OS X";
-"WrongVersionMessage" = "Ce paquet à été compilé pour version @MACOSX_DEPLOYMENT_TARGET@.";
-"NoSANETitle" = "sane-backends pas trouvé";
-"NoSANEMessage" = "Installez le paquet sane-backends avant l’installation du paquet de Interface TWAIN SANE, s.v.p.";

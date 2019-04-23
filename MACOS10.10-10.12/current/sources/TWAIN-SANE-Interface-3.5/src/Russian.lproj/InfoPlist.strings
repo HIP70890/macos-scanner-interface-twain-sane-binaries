@@ -1,4 +1,0 @@
-CFBundleName = "Интерфейс TWAIN SANE";
-CFBundleVersionString = "версия 3.5";
-CFBundleGetInfoString = "Интерфейс TWAIN SANE, версия 3.5, © 2003–2015 Маттиас Эллерт";
-NSHumanReadableCopyright = "© 2003–2015 Маттиас Эллерт";
