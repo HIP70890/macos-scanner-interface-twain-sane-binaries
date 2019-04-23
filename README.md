@@ -2,8 +2,8 @@
 # TWAIN SANE Interface for MacOS (10.10 and Next Versions) #
 ## Make your OLD Scanner back to Service !! ##
 * **************** *
-Repo contains compiled binaries in bundled Package Installation.  
-All sources (1.0.25) are originaly get from its Ancestral MacOS Maintener [ Mattias Ellert's Official site ] 
+This Repository contains corrected SDK for recent MACOS(10.10-10.13) and was newly improved in form of bundled Package Installation.  
+All original sources (1.0.25) are originaly only for MacOS 10.10 installation and was get from its Ancestral MacOS Maintener [ Mattias Ellert's Official site ] 
 
 For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) 
 And Further Resivions may/will be designed around more appropriate versions from Offical SANE Project's Site
