@@ -10,11 +10,27 @@ And Further Resivions may/will be designed around more appropriate versions from
 
 **** For Documentation and more Information, Please Refer to : [http://sane-project.org/] Official Site ****
 
+
+### THIS INSTALLATION PACKAGE DOES NOT REQUIRE ANY SKILL IN XCODE nor HOMEBREW nor BASH ###
+### JUST DOWNLOAD, OPEN PKG FILE AND FOLLOW INSTRUCTION ###
+
 * **************** *
 ## Installation and USAGE ##
 * **************** *
-Download packages
+### Download packages ###
+ 
+  For Older MacOS Version and ARCHIVES
+  
+    MACOS-OLDER-ARCHIVE
+      NOT TESTED / NOT CURRENTLY AVAILBLE
+      |__ TWAIN-SANE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
     
+  For MacOS in Simplfied Monolithic PACKAGE Version (All IN ONE) 
+  
+    MACOS-ALL_IN_ONE
+      NOT TESTED / NOT CURRENTLY AVAILBLE
+      |__ TWAIN-SANE-Scanner-Interface-ALL_IN_ONE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
+  
   For (Yosemite)
   
     MACOS-10.10
@@ -23,6 +39,7 @@ Download packages
       L__ gettext-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
       L__ sane-backends-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg 
       L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
+      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
   
   For (Captain / Sierra)
       
@@ -31,6 +48,7 @@ Download packages
       L__ gettext-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
       L__ sane-backends-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
       L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
+      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
   
   For ( HighSierra )
 
@@ -38,21 +56,27 @@ Download packages
       NOT TESTED / NOT CURRENTLY AVAILBLE
       L__ libusb-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
       L__ gettext-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
+      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
   
   For ( Mojave )
   
     MACOS-10.14 
       NOT TESTED / NOT CURRENTLY AVAILBLE
+      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
   
-  All Versions
   
-    SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
-  
-Install all packages and follow instructions
+## Install all packages corresponding to your MacOS Version, OPEN PKG FILE and follow instructions ##
+
 
 * **************** 
-### Test scanner : 
+## Test scanner : ##
+* **************** 
 
+## User-Friendly Method : ## 
+
+**** TODO Installation Post Process :  ****
+
+### Avanced User Method : ###
 - Open Terminal.app 
 and enter the following command :
 ```sh
@@ -69,14 +93,14 @@ Apple make it more difficult to interfacing with ImageCapture.app
 
 
 * **************** 
-# About Remote / Shared Scan
-## Server sonfiguration
+# About Remote / Shared Scan #
+## Server sonfiguration ##
 * **************** 
 
 Server side configuration taken [here](https://forum.keenetic.net/topic/240-sane-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-usb-%D0%BC%D1%84%D1%83-%D0%B8%D0%BB%D0%B8-%D1%81%D0%BA%D0%B0%D0%BD%D0%B5%D1%80%D0%B0/?do=findComment&comment=3599)
 
 * **************** 
-## Client configuration
+## Client configuration ##
 * **************** 
 
 - Download and Install all packages
@@ -115,3 +139,21 @@ scanimage --format jpg > test.jpg
 ** Thanks to Mattias Ellert, for all this Year of Maintaining SANE TWAIN for MacOS **
 
 [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/
+
+* ******************
+## About HOMEBREW and other installation methods ##
+* ******************
+Homebrew is another way to get software installed on your computer. 
+But it required some skill in BASH usage and Homebrew command line argument.
+
+- You had to download the right version of XCode depends on what Version of MacOS you using. 
+- You had to use Terminal.app and type some commands to install
+    -- Homebrew
+    -- Sane-backend
+    -- Sane-interface
+
+OR IF you a very skilled one.
+
+- You can try by yourself to install latest [Sane Project's version](http://sane-project.org/) 
+- You had to download the right version of XCode depends on what Version of MacOS you using 
+- You had to use Terminal.app and type some commands to compile and install Sane
