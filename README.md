@@ -88,8 +88,8 @@ Your scanner should react and make a picture sample (100px X 100px)
 ## Note about TWAIN Support ##
 * **************** 
 Beside some fact, We Love Twain integration.
-Adobe annouced in 2015 there is no Further support in Photoshop for TWAIN Integration, dues to "Some Resitrictions Caused by Twain", that means Money not in us Pokets 
-Apple make it more difficult to interfacing with ImageCapture.app
+- Adobe annouced in 2015 there is no Further support in Photoshop for TWAIN Integration, dues to "Some Resitrictions Caused by Twain", that means Money not in us Pokets 
+- Apple make it more difficult to interfacing with ImageCapture.app
 
 
 * **************** 
@@ -148,9 +148,9 @@ But it required some skill in BASH usage and Homebrew command line argument.
 
 - You had to download the right version of XCode depends on what Version of MacOS you using. 
 - You had to use Terminal.app and type some commands to install
-    -- Homebrew
-    -- Sane-backend
-    -- Sane-interface
+    - Homebrew
+    - Sane-backend
+    - Sane-interface
 
 OR IF you a very skilled one.
 
