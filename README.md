@@ -19,22 +19,22 @@ Used Software :
 
 @{{GIT_README_VERSIONINFO}}@
 
-- gettext
+  gettext
      |__ @{{DSTAUTHOR}}@
      |__ @{{DSTVERSION}}@
      |__ @{{DSTORIGIN}}@     
      
-- libusb
+  libusb
      |__ @{{DSTAUTHOR}}@
      |__ @{{DSTVERSION}}@
      |__ @{{DSTORIGIN}}@     
      
-- sane-backends 
+  sane-backends 
      |__ @{{DSTAUTHOR}}@
      |__ @{{DSTVERSION}}@
      |__ @{{DSTORIGIN}}@     
      
-- SANE-Preference-Pane
+  SANE-Preference-Pane
      |__ @{{DSTAUTHOR}}@
      |__ @{{DSTVERSION}}@
      |__ @{{DSTORIGIN}}@     
