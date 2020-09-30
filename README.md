@@ -19,30 +19,30 @@ Used Software :
 
 @{{GIT_README_VERSIONINFO}}@
 
-  gettext
-     |__ @{{DSTAUTHOR}}@
-     |__ @{{DSTVERSION}}@
-     |__ @{{DSTORIGIN}}@     
+    gettext
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@     
      
-  libusb
-     |__ @{{DSTAUTHOR}}@
-     |__ @{{DSTVERSION}}@
-     |__ @{{DSTORIGIN}}@     
-     
-  sane-backends 
-     |__ @{{DSTAUTHOR}}@
-     |__ @{{DSTVERSION}}@
-     |__ @{{DSTORIGIN}}@     
-     
-  SANE-Preference-Pane
-     |__ @{{DSTAUTHOR}}@
-     |__ @{{DSTVERSION}}@
-     |__ @{{DSTORIGIN}}@     
-     
-- TWAIN-SANE-Interface
-     |__ @{{DSTAUTHOR}}@
-     |__ @{{DSTVERSION}}@
-     |__ @{{DSTORIGIN}}@     
+    libusb
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@     
+
+    sane-backends 
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@     
+
+    SANE-Preference-Pane
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@     
+
+    TWAIN-SANE-Interface
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@     
 
 * **************** *
 ## Installation and USAGE ##
