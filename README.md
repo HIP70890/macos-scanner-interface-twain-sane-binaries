@@ -2,15 +2,24 @@
 # TWAIN SANE Interface for MacOS (10.10 and Next Versions) #
 ## Make your OLD Scanner back to Service !! ##
 * **************** *
-This Repository contains corrected SDK for recent MACOS(10.10 => +) and was newly improved in form of bundled Package Installation.  
 
-For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) 
-And Further Resivions may/will be designed around more appropriate versions from Offical SANE Project's Site
+This Repository contains Pre-Build Software in form of Package Installation for recent MACOS(10.10 => +), 
+you can request older version in
+https://github.com/genose/macos-scanner-interface-twain-sane-binaries/issues
 
-**** For Documentation and more Information, Please Refer to : [http://sane-project.org/] Official Site ****
+Or use Old Packages for MAC 10.6 / 10.9 from from [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/  
 
+* **************** *
+**** For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) **** 
+**** OR more Information about sane-project, Please Refer to : [http://sane-project.org/] Official Site ****
+* **************** *
 
-### NO SKILLS IN XCODE nor HOMEBREW nor MACPORT nor BASH ###
+05/2019 : Revisions are designed around Offical version 1.0.25 from historic maintener : [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/
+
+09/2020 : The Backends and Frontends are designed around version 1.0.31 from Official : [http://sane-project.org/]
+
+* **************** *
+### NO SKILLS IN XCODE nor HOMEBREW nor MACPORT nor BASH are needed ###
 ### JUST DOWNLOAD, OPEN PKG INSTALLER AND FOLLOW ON-SCREEN INSTRUCTIONS ###
 
 Provided software is distributed as-is 
@@ -63,11 +72,12 @@ Used Software :
       |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-MACOSSDK-(SDKVERSION).dmg
       
   This will give you all depenc, such :
+  @{{GIT_README_PKGCONTENTINFO}}@
     TWAIN-SANE-Scanner
-      L__ libusb
-      L__ gettext
-      L__ sane-backends
-      L__ TWAIN-SANE-Interface
+      |__ libusb
+      |__ gettext
+      |__ sane-backends
+      |__ TWAIN-SANE-Interface
       |__ SANE-Preference-Pane
       
   Exemple ( Mojave )
@@ -86,9 +96,9 @@ Used Software :
       |__ (Beta not Tested)
   
   
-* **************** *  
+ 
 ## Just Install packages corresponding to your MacOS Version, OPEN PKG FILE and follow instructions ##
-* **************** *
+
 
 * **************** 
 ## Test scanner : ##
