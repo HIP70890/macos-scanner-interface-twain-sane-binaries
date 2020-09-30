@@ -2,8 +2,7 @@
 # TWAIN SANE Interface for MacOS (10.10 and Next Versions) #
 ## Make your OLD Scanner back to Service !! ##
 * **************** *
-This Repository contains corrected SDK for recent MACOS(10.10-10.13) and was newly improved in form of bundled Package Installation.  
-All original sources (1.0.25) are originaly only for MacOS 10.10 installation and was get from its Ancestral MacOS Maintener [ Mattias Ellert's Official site ] 
+This Repository contains corrected SDK for recent MACOS(10.10 => +) and was newly improved in form of bundled Package Installation.  
 
 For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) 
 And Further Resivions may/will be designed around more appropriate versions from Offical SANE Project's Site
@@ -11,62 +10,85 @@ And Further Resivions may/will be designed around more appropriate versions from
 **** For Documentation and more Information, Please Refer to : [http://sane-project.org/] Official Site ****
 
 
-### THIS INSTALLATION PACKAGE DOES NOT REQUIRE ANY SKILL IN XCODE nor HOMEBREW nor BASH ###
-### JUST DOWNLOAD, OPEN PKG FILE AND FOLLOW INSTRUCTION ###
+### NO SKILLS IN XCODE nor HOMEBREW nor MACPORT nor BASH ###
+### JUST DOWNLOAD, OPEN PKG INSTALLER AND FOLLOW ON-SCREEN INSTRUCTIONS ###
+
+Provided software is distributed as-is 
+
+Used Software : 
+
+@{{GIT_README_VERSIONINFO}}@
+
+- gettext
+     |__ @{{DSTAUTHOR}}@
+     |__ @{{DSTVERSION}}@
+     |__ @{{DSTORIGIN}}@     
+     
+- libusb
+     |__ @{{DSTAUTHOR}}@
+     |__ @{{DSTVERSION}}@
+     |__ @{{DSTORIGIN}}@     
+     
+- sane-backends 
+     |__ @{{DSTAUTHOR}}@
+     |__ @{{DSTVERSION}}@
+     |__ @{{DSTORIGIN}}@     
+     
+- SANE-Preference-Pane
+     |__ @{{DSTAUTHOR}}@
+     |__ @{{DSTVERSION}}@
+     |__ @{{DSTORIGIN}}@     
+     
+- TWAIN-SANE-Interface
+     |__ @{{DSTAUTHOR}}@
+     |__ @{{DSTVERSION}}@
+     |__ @{{DSTORIGIN}}@     
 
 * **************** *
 ## Installation and USAGE ##
 * **************** *
-### Download packages ###
+### Which packages to Download ... ###
  
-  For Older MacOS Version and ARCHIVES
+  There is Different "Branches"
+  - Archives
+  - Current Release (ALL_IN_ONE), contain all you need ...
   
-    MACOS-OLDER-ARCHIVE
-      NOT TESTED / NOT CURRENTLY AVAILBLE
-      |__ TWAIN-SANE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
+  For Older MacOS Version in /MACOS-OLDERVERSION-ARCHIVES/
+  
+    MACOS-OLDERVERSION-ARCHIVES
+      |__ TWAIN-SANE-Scanner-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
     
-  For MacOS in Simplfied Monolithic PACKAGE Version (All IN ONE) 
-  
-    MACOS-ALL_IN_ONE
-      NOT TESTED / NOT CURRENTLY AVAILBLE
-      |__ TWAIN-SANE-Scanner-Interface-ALL_IN_ONE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
-  
-  For (Yosemite)
-  
-    MACOS-10.10
-      NOT TESTED / NOT CURRENTLY AVAILBLE
-      L__ libusb-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
-      L__ gettext-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
-      L__ sane-backends-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg 
-      L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.10-10.10-SDK-(SDKVERSION).pkg
-      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
-  
-  For (Captain / Sierra)
+  PACKAGE is Simplfied in Monolithic Version (All IN ONE) 
+    MACOS-SIMPLIFIED-ALL_IN_ONE
+      |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-MACOSSDK-(SDKVERSION).dmg
       
-    MACOS-10.11-10.12
-      L__ libusb-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
-      L__ gettext-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
-      L__ sane-backends-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
-      L__ TWAIN-SANE-Interface-(PKGVERSION)-MACOS-10.11-10.12-SDK-(SDKVERSION).pkg
-      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
+  This will give you all depenc, such :
+    TWAIN-SANE-Scanner
+      L__ libusb
+      L__ gettext
+      L__ sane-backends
+      L__ TWAIN-SANE-Interface
+      |__ SANE-Preference-Pane
+      
+  Exemple ( Mojave )
   
-  For ( HighSierra )
-
-    MACOS-10.13
-      NOT TESTED / NOT CURRENTLY AVAILBLE
-      L__ libusb-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
-      L__ gettext-(PKGVERSION)-MACOS-10.13-10.13-SDK-(SDKVERSION).pkg
-      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
+    MACOS-10.14
+      |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-10.14-10.14.11-MACOSSDK-10.14.dmg
   
-  For ( Mojave )
+  Exemple ( Catalina )
   
-    MACOS-10.14 
-      NOT TESTED / NOT CURRENTLY AVAILBLE
-      |__ SANE-Preference-Pane-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-SDK-(SDKVERSION).pkg
+    MACOS-10.15
+      |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-10.15-10.15.11-MACOSSDK-10.14.dmg
+  
+ Exemple ( BigSur )
+  
+    MACOS-11
+      |__ (Beta not Tested)
   
   
-## Install all packages corresponding to your MacOS Version, OPEN PKG FILE and follow instructions ##
-
+* **************** *  
+## Just Install packages corresponding to your MacOS Version, OPEN PKG FILE and follow instructions ##
+* **************** *
 
 * **************** 
 ## Test scanner : ##
