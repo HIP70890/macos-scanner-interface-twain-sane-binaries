@@ -16,7 +16,15 @@ Or use Old Packages for MAC 10.6 / 10.9 from from [ Mattias Ellert's Official si
 
 05/2019 : Revisions are designed around Offical version 1.0.25 from historic maintener : [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/
 
-09/2020 : The Backends and Frontends are designed around version 1.0.31 from Official : [http://sane-project.org/]
+09/2020 : 
+The Backends and Frontends are designed around version 1.0.31 from Official : [http://sane-project.org/]
+
+Project still active and planned has so :
+- Use last of official releases of sane-project 
+- Quartz compliant GUI
+- Release for Pre-Sierra ERA(10.9-10.12) to Catalina(10.15)
+- Release also for older version (10.6, in reflection)
+
 
 * **************** *
 ### NO SKILLS IN XCODE nor HOMEBREW nor MACPORT nor BASH are needed ###
