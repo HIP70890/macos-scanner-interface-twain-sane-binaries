@@ -3,7 +3,7 @@
 ## Make your OLD Scanner back to Service !! ##
 * **************** *
 
-This Repository contains Pre-Build Software in form of Package Installation for recent MACOS(10.10 => +), 
+This Repository contains Pre-Build Software (Binaries) in form of Package Installation (PKG / DMG) for recent MACOS(10.9 => +), also old MacOS Leopard (10.6)
 you can request older version in
 https://github.com/genose/macos-scanner-interface-twain-sane-binaries/issues
 
@@ -13,28 +13,36 @@ Or use Old Packages for MAC 10.6 / 10.9 from from [ Mattias Ellert's Official si
 **** For Other Operating Systems (Linux, Windows, Beos/Zeta, SunOS ...) **** 
 **** OR more Information about sane-project, Please Refer to : [http://sane-project.org/] Official Site ****
 * **************** *
-
-05/2019 : Revisions are designed around Offical version 1.0.25 from historic maintener : [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/
-
-09/2020 : 
-The Backends and Frontends are designed around version 1.0.31 from Official : [http://sane-project.org/]
-
-Project still active and planned has so :
-- Use last of official releases of sane-project 
-- Quartz compliant GUI
-- Release for Pre-Sierra ERA(10.9-10.12) to Catalina(10.15)
-- Release also for older version (10.6, in reflection)
-
-
-* **************** *
 ### NO SKILLS IN XCODE nor HOMEBREW nor MACPORT nor BASH are needed ###
 ### JUST DOWNLOAD, OPEN PKG INSTALLER AND FOLLOW ON-SCREEN INSTRUCTIONS ###
+* **************** *
+### History : ###
+04/2019 : Fork Mattias Ellert work, aged from 2015
+05/2019 : Workarounds and Revisions are designed from historic maintener : [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/ ( Sane-Backend Based on Release Version 1.0.25 )
+09/2020 : 
+Project still active and planned has so :
+- Use last official sources (Backends and Frontends) release from sane-project [http://sane-project.org/] ( last version 1.0.31 )
+- Quartz compliant GUI ( ImageKit / IKScannerDeviceView )
+- ImageCapture compliant (ICA)
+- Release for Pre-Sierra ERA (10.9-10.12) to Catalina (10.15)
+- Release also for older version (10.6, in reflection)
+- ARM / PPC / INTEL (i386 / x86)
 
-Provided software is distributed as-is 
+* **************** *
+Provided software is distributed as-is with no warranty, tested by community
 
 Used Software : 
 
-@{{GIT_README_VERSIONINFO}}@
+@{{GIT_README_VERSIONINFO}}
+@{{GIT_README_VERSIONINFO_MODEL}}}@
+@{{GIT_README_VERSIONINFO_EACH}}}@
+
+    @{{DSTNAME}}@
+      |__ @{{DSTAUTHOR}}@
+      |__ @{{DSTVERSION}}@
+      |__ @{{DSTORIGIN}}@
+@{{GIT_README_VERSIONINFO_EACH_END}}@
+@{{GIT_README_VERSIONINFO_MODEL_END}}}@
 
     gettext
       |__ @{{DSTAUTHOR}}@
@@ -79,8 +87,17 @@ Used Software :
     MACOS-SIMPLIFIED-ALL_IN_ONE
       |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-(MACOSMINORVERSION)-(MACOSMAJORVERSION)-MACOSSDK-(SDKVERSION).dmg
       
-  This will give you all depenc, such :
-  @{{GIT_README_PKGCONTENTINFO}}@
+  This will give you all depencies, such :
+
+@{{GIT_README_PKG_CONTENTINFO}}@
+@{{GIT_README_PKG_CONTENTINFO_MODEL}}@
+
+    TWAIN-SANE-Scanner
+@{{GIT_README_PKG_CONTENTINFO_EACH}}@
+      |__ @{{DSTNAME}}@
+@{{GIT_README_PKG_CONTENTINFO_EACH_END}}@
+@{{GIT_README_PKG_CONTENTINFO_MODEL_END}}@
+
     TWAIN-SANE-Scanner
       |__ libusb
       |__ gettext
@@ -88,17 +105,17 @@ Used Software :
       |__ TWAIN-SANE-Interface
       |__ SANE-Preference-Pane
       
-  Exemple ( Mojave )
+  ** Exemple ( Mojave ) **
   
     MACOS-10.14
       |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-10.14-10.14.11-MACOSSDK-10.14.dmg
   
-  Exemple ( Catalina )
+  ** Exemple ( Catalina ) **
   
     MACOS-10.15
       |__ TWAIN-SANE-Scanner-ALL_IN_ONE-(PKGVERSION)-MACOS-10.15-10.15.11-MACOSSDK-10.14.dmg
   
- Exemple ( BigSur )
+ ** Exemple ( BigSur, Anticipated for 2021 ) **
   
     MACOS-11
       |__ (Beta not Tested)
