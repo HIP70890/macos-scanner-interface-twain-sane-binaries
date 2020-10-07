@@ -3,8 +3,8 @@
 ## Make your OLD Scanner back to Service !! ##
 * **************** *
 
-This Repository contains Pre-Build Software (Binaries) in form of Package Installation (PKG / DMG) for recent MACOS(10.9 => +), also old MacOS Leopard (10.6)
-you can request older version in
+This Repository contains Pre-Build Software (Binaries) in form of Package Installation (PKG / DMG) for recent MACOS(10.9 => +), also old MacOS Leopard (10.6) .
+You can put your request for any improvement or request to obtain older version in
 https://github.com/genose/macos-scanner-interface-twain-sane-binaries/issues
 
 Or use Old Packages for MAC 10.6 / 10.9 from from [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/  
