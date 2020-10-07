@@ -4,6 +4,7 @@
 * **************** *
 
 This Repository contains Pre-Build Software (Binaries) in form of Package Installation (PKG / DMG) for recent MACOS(10.9 => +), also old MacOS Leopard (10.6) .
+
 You can put your request for any improvement or request to obtain older version in
 https://github.com/genose/macos-scanner-interface-twain-sane-binaries/issues
 
