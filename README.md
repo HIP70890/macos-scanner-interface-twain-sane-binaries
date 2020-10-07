@@ -20,22 +20,25 @@ Or use Old Packages for MAC 10.6 / 10.9 from from [ Mattias Ellert's Official si
 ### History : ###
 04/2019 : Fork Mattias Ellert work, aged from 2015
 05/2019 : Workarounds and Revisions are designed from historic maintener : [ Mattias Ellert's Official site ]:http://www.ellert.se/twain-sane/ ( Sane-Backend Based on Release Version 1.0.25 )
-09/2020 : 
-Project still active and planned has so :
+
+09/2020 : Project still active and planned has follow
+
 - Use last official sources (Backends and Frontends) release from sane-project [http://sane-project.org/] ( last version 1.0.31 )
 - Quartz compliant GUI ( ImageKit / IKScannerDeviceView )
 - ImageCapture compliant (ICA)
 - Release for Pre-Sierra ERA (10.9-10.12) to Catalina (10.15)
 - Release also for older version (10.6, in reflection)
-- ARM / PPC / INTEL (i386 / x86)
+- ARM / (PPC) / INTEL (i386 / x86)
 
 * **************** *
 Provided software is distributed as-is with no warranty, tested by community
 
 Used Software : 
 
-@{{GIT_README_VERSIONINFO}}
+@{{GIT_README_VERSIONINFO}}@
+
 @{{GIT_README_VERSIONINFO_MODEL}}}@
+
 @{{GIT_README_VERSIONINFO_EACH}}}@
 
     @{{DSTNAME}}@
@@ -43,6 +46,7 @@ Used Software :
       |__ @{{DSTVERSION}}@
       |__ @{{DSTORIGIN}}@
 @{{GIT_README_VERSIONINFO_EACH_END}}@
+
 @{{GIT_README_VERSIONINFO_MODEL_END}}}@
 
     gettext
@@ -91,12 +95,15 @@ Used Software :
   This will give you all depencies, such :
 
 @{{GIT_README_PKG_CONTENTINFO}}@
+
 @{{GIT_README_PKG_CONTENTINFO_MODEL}}@
 
     TWAIN-SANE-Scanner
 @{{GIT_README_PKG_CONTENTINFO_EACH}}@
       |__ @{{DSTNAME}}@
+
 @{{GIT_README_PKG_CONTENTINFO_EACH_END}}@
+
 @{{GIT_README_PKG_CONTENTINFO_MODEL_END}}@
 
     TWAIN-SANE-Scanner
