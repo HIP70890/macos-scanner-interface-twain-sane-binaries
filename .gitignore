@@ -32,3 +32,4 @@ sources.zip
 srctools/scripts/*
 */*.xcworkspace/*
 *.xcworkspace/*
+*.icloud
